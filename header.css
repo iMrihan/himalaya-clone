@@ -1,0 +1,139 @@
+.logo {
+  width: 12rem;
+  margin-right: 20px;
+}
+
+.offer-info {
+  width: 100vw;
+  height: 40px;
+  background-color: #ff7451;
+  color: #fff;
+  font-size:18px;
+}
+
+.navbar {
+  padding: 5px 30px;
+  position: relative;
+
+}
+
+p >strong {
+  font-weight: bold;
+}
+
+.left-navbar {
+}
+
+.left-navbar-links {
+  text-decoration: none;
+  margin: 0 20px;
+  color: #777;
+  font-size: 18px;
+}
+
+.catalogs {
+  position: absolute;
+  width: 100vw;
+  top: 4.5rem;
+  left: 0;
+  background-color: #fff;
+  display: none;
+}
+
+.catalogs > div:first-child {
+  flex-basis: 70%;
+}
+
+.catalogs > div:last-child {
+  flex-basis: 30%;
+  /* border: 1px solid blue; */
+}
+
+.catalogs > div:last-child > img {
+  width: 300px;
+}
+
+.right-navbar {
+  position: relative;
+  flex-basis: 10%;
+}
+
+.right-navbar > div {
+  width: fit-content;
+}
+
+.right-navbar img {
+  width: 25px;
+  margin: 0 8px;
+  cursor: pointer;
+}
+#my-account-link{
+  cursor: pointer;
+}
+
+.header-bottom{
+  background: #f7f8fa;
+  font-family: Poppins,sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px 30px;
+  color: #777;
+}
+
+ul.flex>li>a{
+  text-decoration: none;
+  color: #777;
+}
+
+ul.flex>li{
+  margin-left: 10px;
+}
+
+.credentials-slider {
+  position: absolute;
+  background-color: #fff;
+  padding: 2rem 4rem 2rem 2rem;
+  font-size: 14px;
+  border-top: 1px solid rgb(226, 225, 225);
+  margin-top: 3rem;
+  left: 0;
+  box-shadow: -1px 2px 6px 0px #b8b8b8;
+  border-radius: 1px;
+  display: none;
+}
+
+.credentials-slider a {
+  text-decoration: none;
+  color: rgb(161, 161, 161);
+  margin: 8px 0;
+}
+
+.shop>div{
+  padding-top: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.shop>div a {
+  text-decoration: none;
+  color: #66765f;
+}
+.health a{
+  text-decoration: none;
+  color: #66765f;
+  font-size: 18px;
+  font-weight: bold;
+  
+  
+}
+.health{
+  margin: 150px 0px 0px 150px;
+}
+.shop-image p{
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 16px;
+  color: #777777;
+  padding-bottom: 50px;
+  text-align: center;
+  margin-right: 100px;
+}

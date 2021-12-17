@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health Products</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="offer-info flex justify-center align-center">
+        <p><strong>FREE SHIPPING</strong> ON ALL ORDERS OVER $35!</p>
+      </div>
+
+      <nav class="navbar flex justify-between align-center">
+        <section class="left-navbar flex align-center">
+          <div>
+            <div class="logo">
+              <a href="./index.html"
+                ><img
+                  src="./assets/Himalaya Wellness_ Herbal Supplements, Toothpaste & More! – Himalaya Wellness (US)-7.svg"
+                  alt="logo"
+              /></a>
+            </div>
+          </div>
+          <div>
+            <ul class="flex" id="left-navbar-links">
+              <li>
+                <a href="#" class="left-navbar-links" id="shop-link">Shop</a>
+              </li>
+              <li><a href="about.html" class="left-navbar-links">About</a></li>
+              <li><a href="#" class="left-navbar-links">Store Locator</a></li>
+            </ul>
+          </div>
+
+          <div class="catalogs flex">
+            <div>
+              <div class="flex justify justify-evenly shop">
+                <div>
+                  <a href="./herbalproducts.html">Herbal Supplements</a>
+                </div>
+                <div>
+                  <a href="./oralCareProducts.html">Oral Care</a>
+                </div>
+                <div>
+                  <a href="./personalCareProducts.html">Personal Care</a>
+                </div>
+              </div>
+
+              <div class="health">
+                <a href="./healthProducts.html">Health Interest</a>
+              </div>
+            </div>
+
+            <div class="shop-image">
+              <img
+                src="./assets/Ashwagandha_BoxBottle_30_800x.jpg"
+                alt="product"
+              />
+              <p>Find out why everyone loves bestselling Organic Ashwagandha</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="right-navbar flex justify-end">
+          <div class="flex">
+            <p>
+              <img
+                title="Search"
+                src="./assets/Himalaya Wellness_ Herbal Supplements, Toothpaste & More! – Himalaya Wellness (US)-8.svg"
+                alt="search"
+              />
+            </p>
+            <p id="my-account-link">
+              <img
+                title="My Account"
+                src="./assets/assets2/Himalaya Wellness_ Herbal Supplements, Toothpaste & More! – Himalaya Wellness (US)-13 (2).svg"
+                alt="user"
+              />
+            </p>
+            <a href="./cart.html">
+              <img
+                title="Cart"
+                src="./assets/Himalaya Wellness_ Herbal Supplements, Toothpaste & More! – Himalaya Wellness (US)-9.svg"
+                alt="user"
+            /></a>
+          </div>
+          <div class="credentials-slider flex-column">
+            <a href="./signin.html">Sign In</a>
+            <a href="./signup.html">Register</a>
+            <a href="#">Checkout</a>
+          </div>
+        </section>
+      </nav>
+      <div class="header-bottom">
+        <ul class="flex">
+          <li><a target="_self" href="index.html"> Home</a> /</li>
+          <li>Health Interests</li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="product-heading">
+        <h1>Health Interests</h1>
+      </div>
+      <div class="product-sortDiv">
+        <label>Sort By</label>
+        <select id="product-sort" onchange="sortHandle()">
+          <option value="">----</option>
+          <option value="nameAscending">Name Ascending</option>
+          <option value="nameDescending">Name Descending</option>
+          <option value="priceAscending">Price Ascending</option>
+
+          <option value="priceDescending">Price Descending</option>
+        </select>
+      </div>
+      <div class="product-name-link flex">
+        <div class="product-name-link-left">
+          <a href="#"><h3>Product Type</h3></a>
+          <a href="#"><p>Blood Sugar</p></a>
+          <a href="#"><p>Brain & Cognitive</p></a>
+          <a href="#"><p>Digestion</p></a>
+          <a href="#"><p>Energy & Vitality</p></a>
+          <a href="#"><p>Hair, Skin & Cardio</p></a>
+          <a href="#"><p>Heart & Cardio</p></a>
+          <a href="#"><p>Immune Support</p></a>
+          <a href="#"><p>Join & Mobility</p></a>
+          <a href="#"><p>Liver & Cleanse</p></a>
+          <a href="#"><p>Men's Wellness</p></a>
+          <a href="#"><p>Respiratory</p></a>
+          <a href="#"><p>Sleep</p></a>
+          <a href="#"><p>Stress & Mood</p></a>
+          <a href="#"><p>Urinary</p></a>
+          <a href="#"><p>Weight Management</p></a>
+          <a href="#"><p>Women's Wellness</p></a>
+        </div>
+        <div class="product-image-link-right flex"></div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="information-details">
+        <div class="information">
+          <h3>Info</h3>
+          <a href="#"><p>Contact Us</p></a>
+          <a href="#">
+            <p>FAQ</p>
+          </a>
+          <a href="#">
+            <p>Blog</p>
+          </a>
+          <a href="#">
+            <p>Store Location</p>
+          </a>
+          <a href="#">
+            <p>Careers</p>
+          </a>
+        </div>
+        <div class="policies">
+          <h3>Policies</h3>
+
+          <a href="#">
+            <p>Shipping & Returns</p>
+          </a>
+          <a href="#">
+            <p>Terms & Conditions</p>
+          </a>
+          <a href="#">
+            <p>Privacy</p>
+          </a>
+          <a href="#">
+            <p>CCPA</p>
+          </a>
+          <a href="#">
+            <p>Accessibility</p>
+          </a>
+        </div>
+        <div class="contactDiv">
+          <h3>Contact Us</h3>
+          <div class="emailDiv">
+            <strong>Email:</strong><br />
+            <a class="details-link" href="#"> writetous@himalayausa.com </a>
+          </div>
+          <div class="phoneDiv">
+            <strong>Phone:</strong><br />
+            <a class="details-link" href="#">1-800-869-4640</a>
+            <h4 class="time-details">Mon-Fri, 8am-5pm CT</h4>
+          </div>
+          <div class="mailDiv">
+            <strong>Mail:</strong><br />
+            <h4 class="time-details">Himalaya Wellness</h4>
+            <a class="details-link" href="#"
+              >1101 Gillingham Lane <br />Sugar Land, TX 77478
+            </a>
+          </div>
+        </div>
+        <div class="subscribeDiv">
+          <h3>Subscribe to Our Newsletter!</h3>
+          <input type="email" placeholder="Enter your e-mail" />
+          <p>
+            By entering your email, you agree to<br />
+            our Terms & Conditions and Privacy<br />
+            Policy.
+          </p>
+          <div class="followUs flex">
+            <h3>Follow Us:</h3>
+            <a href="#">
+              <img
+                width="24px"
+                height="24px"
+                src="./assets/assets2/facebook.svg"
+                alt="logo"
+            /></a>
+            <a href="#">
+              <img
+                width="24px"
+                height="24px"
+                src="./assets/assets2/twitterimg.svg"
+                alt="logo"
+              />
+            </a>
+            <a href="#">
+              <img
+                width="24px"
+                height="24px"
+                src="./assets/assets2/instagramimg.svg"
+                alt="logo"
+            /></a>
+            <a href="#">
+              <img
+                width="24px"
+                height="24px"
+                src="./assets/assets2/youtubeimg.svg"
+                alt="logo"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-first-footer">
+        <p>© 2021 Himalaya Wellness. All rights reserved.</p>
+      </div>
+      <div class="bottom-last-footer">
+        <p>
+          *THESE STATEMENTS HAVE NOT BEEN EVALUATED BY THE FOOD AND DRUG
+          ADMINISTRATION. THIS PRODUCT IS NOT INTENDED TO DIAGNOSE, TREAT, CURE
+          OR PREVENT ANY DISEASE.
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script src="healthProducts.js" type="module"></script>
+</html>

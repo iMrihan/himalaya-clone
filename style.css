@@ -1,0 +1,42 @@
+@import "reset.css";
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+@import "signup.css";
+@import "signin.css";
+@import "herbalproducts.css";
+@import "cart.css";
+@import "./shippingAddress.css";
+@import "./payment.js";
+@import "./about.css";
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+.justify-evenly{
+  justify-content: space-evenly;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+body {
+  font-family: Poppins,sans-serif;
+}

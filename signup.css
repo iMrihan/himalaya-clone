@@ -1,0 +1,57 @@
+.register-form{
+  width: 40%;
+  margin: auto;
+  margin-top: 80px;
+  padding-left: 150px;
+
+}
+.register-form h2{
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  color: #333;
+  margin-left: 20px;
+
+  
+
+}
+.register-form h3{
+  font-size: 26px;
+  line-height: 35px;
+  font-weight: 500;
+  color: #333;
+  padding-bottom: 21px;
+}
+label{
+  font-size: 18px;
+    color: #777;
+    padding-bottom: 1px;
+    font-family: Poppins,sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+}
+input{
+  background: 0 0;
+    font-size: 16px;
+    border: 1px solid #e9e7e7;
+    padding: 11px 80px 15px 20px;
+    box-shadow: none;
+    outline: 0;
+    font-family: Poppins,sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+#submit-button{
+  padding: 11px 125px;
+  background: #a3b49b;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+
+}
+#submit-button:hover{
+  background: #66765f;
+    color: #fff;
+    outline: 0;
+}

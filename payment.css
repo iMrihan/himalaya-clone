@@ -1,0 +1,102 @@
+#payment-box{
+  width:28%;
+  height:450px;
+  margin:  auto;
+  color:rgb(9, 139, 139);
+  padding: 15px 10px 15px 15px;
+  margin-top: 50px; 
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; 
+
+
+}
+
+.payment-heading{
+  text-align: center;
+  color:rgb(9, 139, 139);
+  font-size: 20px;
+
+}
+.flex{
+  display: flex;
+  
+}
+label{
+  font-size: 16px;
+  font-weight: bold;
+}
+input{
+  padding: 7px 1px;
+  margin: 5px 0px;
+}
+
+#email{
+  padding: 7px 184px 7px 5px;
+}
+#gender{
+  margin-left: 10px;
+}
+#male{
+  padding: 12px 35px;
+  margin-top: 5px;
+  background: rgb(9, 139, 139);
+  color: white;
+  border-radius:2px;
+  border: 0;
+
+}
+
+#female{
+  padding: 10px 28px;
+  margin-top: 5px;
+
+}
+#credit-cart{
+  padding: 9px 50px;
+  margin-top: 5px;
+  background: rgb(9, 139, 139);
+  color: white;
+  border-radius:2px;
+  border: 0;
+
+}
+
+#paytm{
+  padding: 8px 80px;
+  margin-top: 5px;
+ ;
+
+}
+
+#card-number{
+  padding:8px 184px 8px 5px ;
+}
+#card-month{
+  width: 85px;
+  text-align: center;
+}
+
+#card-year{
+  width: 85px;
+  text-align: center;
+}
+
+#pay-now{
+  padding: 10px 158px;
+  background: rgb(9, 139, 139);
+  color: white;
+  border-radius:10px;
+  border: 0;
+
+
+}
+
+#pay-now:hover{
+  padding: 10px 158px;
+  background: rgb(17, 85, 85);
+  color: white;
+  border-radius:10px;
+  border: 0;
+  cursor: pointer;
+
+
+}

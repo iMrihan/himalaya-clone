@@ -1,0 +1,88 @@
+.shopping-cart-underline{
+
+  width: 90%;
+  border-bottom: .1px solid #e9e7e7;;
+  margin: 3% auto;
+  
+}
+
+.left-tag>a{
+  text-decoration: none;
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  
+}
+.left-tag{
+  margin-left: 100px;
+
+}
+
+.right-tag>p{
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+.right-tag{
+  margin-right: 170px;
+
+}
+.total-price{
+  border: 1px solid #66765f;
+  ;
+  width: 40%;
+  height: 220px;
+  margin: 5% 5% 5% 50%;
+  background-color: #66765f;
+
+  color: #fff;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+}
+
+.subtotal{
+font-size: 26px;    
+line-height: 35px;
+
+font-weight: bold;
+    margin-top: 20px;
+
+  }
+.grand-total{
+    font-size: 34px;
+    line-height: 35px;
+   font-weight: bold;
+    margin-top: 15px;
+    
+      }
+  .checkOut-button{
+     padding: 13px 140px;
+        margin-top: 25px;
+        color: #fff;
+        background: #a3b49b;
+        border: 0;
+        cursor: pointer;
+            }
+
+            .checkOut-button:hover{
+              padding: 13px 140px;
+              margin-top: 25px;
+              color:  #a3b49b;
+              background:  #fff;
+              border: 0;
+              cursor: pointer;
+              font-weight: bold;
+               }
+    .product-review{
+      font-size:25px;
+      color:#333;
+      margin: 20px 60px;
+      font-weight: bold;
+    }             
+
+    #shopping-cart-box{
+      width: 90%;
+    }
