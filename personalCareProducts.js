@@ -58,6 +58,7 @@ function displayItems(personalCareData) {
     btn.textContent = "Add To Cart";
     btn.addEventListener("click", function () {
       addToCart(elem);
+      alert("Product Added");
     });
     price.textContent = elem.price;
     detailsDiv.append(text, price, btn);
