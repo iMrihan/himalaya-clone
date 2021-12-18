@@ -8,6 +8,7 @@
   width: 30%;
   margin-left: 20%;
   padding: 40px;
+  
 
 }
 .shipping-layout{
@@ -92,13 +93,14 @@
 }
 
 #select{
-  padding: 10px 30px;
+  padding: 10px 35px;
   font-size:20px;
 
 }
 #states{
-  padding: 10px 30px;
+  padding: 10px 33px;
   font-size:20px;
+  margin-bottom: 20px;
 
 }
 #submit{
