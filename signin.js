@@ -1,5 +1,5 @@
 document.querySelector("form").addEventListener("submit", signIn);
-var userData = JSON.parse(localStorage.getItem("userDetails"));
+var userData = JSON.parse(localStorage.getItem("userDetails"))||[];
 console.log(userData);
 function signIn(event) {
   event.preventDefault();
