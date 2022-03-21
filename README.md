@@ -17,3 +17,5 @@ Adding javascript for functionalities.
 # Takeaways
 To be able to work on a project must possess leadership qualities
 Overall, it was a surreal experience, and I look forward to many such challenges.
+# Deployed Link:
+https://imrihan.github.io/himalaya-clone/
